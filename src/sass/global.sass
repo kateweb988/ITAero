@@ -1,0 +1,142 @@
+body
+   font-family: "Open Sans", sans-serif
+   background: #ffff
+   font-size: 17px
+   font-weight: 400
+   line-height: 130%
+   color: #2B2B2B
+a
+   text-decoration: none
+   box-sizing: border-box
+   transition: 0.5s !important
+   &:hover 
+      color: $blue
+.container
+   padding: 0 15px
+   max-width: 1302px
+   margin: 0 auto
+   @media ( max-width: 1199px )
+      max-width: 960px !important
+   @media (max-width: 991px)
+      max-width: 720px !important
+   @media (max-width: 767px)
+      max-width: 540px !important
+.d-flex, .q
+   display: flex
+.body-wrap
+   overflow: hidden
+   position: relative
+   display: flex
+   flex-direction: column
+   min-height: 100vh
+footer
+   margin-top: auto
+h1
+   font-size: 64px
+   font-weight: 400
+   text-align: center
+   line-height: 120%
+   z-index: -2
+   position: relative
+   margin: 0
+h2 
+   margin: 0
+   font-size: 40px
+   text-align: center
+   font-weight: 400
+   line-height: 140%
+.sub 
+   color: $lightblue
+   font-size: 15px
+   font-weight: 400
+   text-transform: uppercase
+   line-height: 110%
+   text-align: center
+.blue 
+   color: $blue
+ul 
+   margin: 0
+   padding: 0
+   list-style-type: none
+p
+   margin: 0
+.svg 
+   transition: 0.5s ease
+a
+   transition: color 0.5s ease
+   box-sizing: border-box
+li
+   a
+      transition: color 0.5s ease
+button
+   cursor: pointer
+   box-sizing: border-box
+textarea
+   transition: border 0.5s
+   box-sizing: border-box
+   &:focus
+      transition: border 0.5s
+      outline: none
+      border: 1px solid $blue !important
+input
+   transition: 0.5s
+   box-sizing: border-box
+   border: 1px solid #fff
+   &:disabled
+      pointer-events: none
+      opacity: 0.5
+   &:focus 
+      border: 1px solid $blue !important
+      transition: 0.5s
+   &:focus-visible
+      outline: initial
+path
+   transition: fill 0.5s, stroke 0.5s
+div 
+   box-sizing: border-box
+.icon 
+   transition: fill 0.5s, stroke 0.5s
+html * 
+   scrollbar-width: thin
+   scrollbar-color: blue $lightblue
+*::-webkit-scrollbar,
+html *::-webkit-scrollbar 
+   height: 7px
+   width: 7px
+*::-webkit-scrollbar-track,
+html *::-webkit-scrollbar-track 
+   background: #E7E7E7
+   border-radius: 3px
+*::-webkit-scrollbar-thumb,
+html *::-webkit-scrollbar-thumb 
+   background-color: $lightblue
+   border-radius: 6px
+.btn 
+   display: flex
+   align-items: center
+   justify-content: center
+   transition: 0.5s
+   position: relative;
+   width: 161px
+   height: 43px
+   border-radius: 15px
+   background: $lightblue
+   color: rgb(255, 255, 255)
+   font-size: 17px
+   font-weight: 400
+   line-height: 23px
+   border: 1px solid $lightblue
+   &:hover 
+      background: transparent 
+      color: $lightblue
+   &_2
+      width: 238px
+      height: 43px
+      color: $lightblue
+      background: transparent
+      &:hover
+         background: $lightblue
+         color: white
+         .svg 
+            path 
+               fill: white

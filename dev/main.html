@@ -1,0 +1,1346 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<meta charset="UTF-8">
+
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="format-detection" content="telephone=no">
+	<meta name="format-detection" content="date=no">
+	<meta name="format-detection" content="address=no">
+	<meta name="format-detection" content="email=no">
+	<meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests" />
+	<meta name="apple-mobile-web-app-status-bar-style" content="default">
+
+	<title>ITAero</title>
+	<meta name="keywords" content="">
+	<meta name="description" content="">
+
+	<meta property="og:locale" content="ru-Ru">
+	<meta property="og:type" content="website">
+	<meta property="og:title" content="">
+	<meta property="og:description" content="">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+		rel="stylesheet">
+	<script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU" type="text/javascript"></script>
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+
+</head>
+
+<body>
+	<div class="body-wrap">
+		<header class="header" id="header">
+			<nav class="nav">
+				<div class="container">
+					<div class="nav__box q">
+						<a href="main.html" class="nav__logo">
+							<img src="img/logo.svg" alt="">
+						</a>
+						<ul class="main__ul">
+							<li>
+								<a href="#">
+									О нас
+								</a>
+							</li>
+							<li class="open">
+								<a href="#">
+									Услуги
+								</a>
+								<div class="open__menu q">
+									<ul class="q">
+										<li>
+											<a href="#">
+												IT-аутсорсинг
+											</a>
+										</li>
+										<li>
+											<a href="#">
+												Разработка электроники
+											</a>
+										</li>
+										<li>
+											<a href="#">
+												IP-телефония
+											</a>
+										</li>
+										<li>
+											<a href="#">
+												Администрирование серверов
+											</a>
+										</li>
+										<li>
+											<a href="#">
+												IT-услуги
+											</a>
+										</li>
+										<li>
+											<a href="#">
+												Ремонт техники
+											</a>
+										</li>
+										<li>
+											<a href="#">
+												Поддержка 1С
+											</a>
+										</li>
+										<li>
+											<a href="#">
+												Разработка программного обеспечения
+											</a>
+										</li>
+									</ul>
+								</div>
+							</li>
+							<li>
+								<a href="#">
+									Портфолио
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									Блог
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									Контакты
+								</a>
+							</li>
+						</ul>
+						<a href="#" class="nav__bot q" target="_blank">
+							<p>
+								ITAeroBot
+							</p>
+							<img src="img/tele.svg" alt="" class="svg">
+						</a>
+					</div>
+					<div class="menu-btn">
+						<span></span>
+						<span></span>
+						<span></span>
+					</div>
+				</div>
+			</nav>
+			<div class="menu">
+				<ul>
+					<li>
+						<a href="#">
+							О нас
+						</a>
+					</li>
+					<li>
+						<div class="accordion-container">
+							<div class="set">
+								<a href="#">
+									Услуги
+								</a>
+								<div class="content">
+									<ul>
+										<li>
+											<a href="#">
+												IT-аутсорсинг
+											</a>
+										</li>
+										<li>
+											<a href="#">
+												IT-услуги
+											</a>
+										</li>
+										<li>
+											<a href="#">
+												Разработка электроники
+											</a>
+										</li>
+										<li>
+											<a href="#">
+												Ремонт техники
+											</a>
+										</li>
+										<li>
+											<a href="#">
+												IP-телефония
+											</a>
+										</li>
+										<li>
+											<a href="#">
+												Поддержка 1С
+											</a>
+										</li>
+										<li>
+											<a href="#">
+												Администрирование серверов
+											</a>
+										</li>
+										<li>
+											<a href="#">
+												Разработка программного обеспечения
+											</a>
+										</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</li>
+					<li>
+						<a href="#">
+							Портфолио
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							IT-аутсорсинг
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							Калькулятор
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							Блог
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							FAQ
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							Контакты
+						</a>
+					</li>
+				</ul>
+			</div>
+			<div class="container">
+				<div class="header__box">
+					<h1>
+						<span class="blue"> IT</span> решения, которые сделают <br> ваши мечты <span
+							class="blue">реальностью</span>
+					</h1>
+					<div class="header__row q">
+						<div class="header__block q">
+							Большой выбор IT-услуг
+						</div>
+						<picture class="header__main">
+							<source srcset="img/main11.png" media="(max-width: 576px)">
+							<img src="img/main1.png" alt="">
+						</picture>
+						<div class="header__center">
+							<div>
+								<p>
+									Качественный ремонт компьютеров
+								</p>
+								<img src="img/main2.png" alt="">
+							</div>
+							<div>
+								<p>
+									Мы имеем всё нужное, чтобы производить аппаратный  ремонт компьютерной техники своими силами
+								</p>
+								<a href="#">
+									<img src="img/arr1.svg" alt="" class="svg">
+								</a>
+							</div>
+						</div>
+						<div class="header__right">
+							<img src="img/main3.png" alt="">
+							<p>
+								IT-аутсорсинг вашей компании
+							</p>
+							<a href="#">
+								Читать подробнее <img src="img/arr2.svg" alt="" class="svg">
+							</a>
+						</div>
+					</div>
+				</div>
+				<div class="header__links q">
+					<a href="#faq" class="go_to btn btn_2">
+						FAQ
+					</a>
+					<a href="#about" class="go_to btn btn_2">
+						Читать о нас <img src="img/arr3.svg" alt="" class="svg">
+					</a>
+					<a href="#calc" class="go_to btn btn_2">
+						Калькулятор
+					</a>
+				</div>
+			</div>
+		</header>
+		<section class="about" id="about">
+			<div class="container">
+				<p class="sub">
+					Почему именно мы?
+				</p>
+				<h2>
+					О <span class="blue"> нашей</span> компании
+				</h2>
+				<div class="about__box q">
+					<div class="about__item">
+						<img src="img/about1.svg" alt="">
+						<h3>
+							Профессионализм
+						</h3>
+						<p>
+							У ряда инженеров есть различные сертификаты от Microsoft, Cisco и другие, что подтверждает должный
+							уровень знаний
+						</p>
+					</div>
+					<div class="about__item">
+						<img src="img/about2.svg" alt="">
+						<h3>
+							Качественный ремонт
+						</h3>
+						<p>
+							У нас имеется запас комплектующих для ремонта ПК, включая всевозможные конденсаторы, резисторы и
+							тому подобное
+						</p>
+					</div>
+					<div class="about__item">
+						<img src="img/about3.svg" alt="">
+						<h3>
+							Индивидуальный подход
+						</h3>
+						<p>
+							Мы удовлетворяем потребности клиента и создаём решение, соответствующее его конкретным требованиям
+						</p>
+					</div>
+					<div class="about__item">
+						<img src="img/about4.svg" alt="">
+						<h3>
+							Бережное отношение
+						</h3>
+						<p>
+							Мы никогда не забываем про ваши заявки. Каждый ваш звонок регистрируется в специальной системе
+							заявок OTRS ITSM
+						</p>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="ser" id="ser">
+			<div class="container">
+				<p class="sub">
+					найдите то, что нужно именно вам
+				</p>
+				<h2>
+					Наши <span class="blue">услуги</span>
+				</h2>
+				<div class="ser__box">
+					<div class="ser__left">
+						<div>
+							<img src="img/ser1.png" alt="">
+							<p>
+								IT-аутсорсинг
+							</p>
+							<ul>
+								<li>
+									IT-аудит
+								</li>
+								<li>
+									Обслуживание СКС и Wi-Fi сетей
+								</li>
+								<li>
+									Объединение удалённых офисоф в едину сеть VPN
+								</li>
+								<li>
+									Настройка ЭЦП
+								</li>
+								<li>
+									Почтовый сервер
+								</li>
+							</ul>
+						</div>
+					</div>
+					<div class="ser__center">
+						<div>
+							<img src="img/ser2.png" alt="">
+							<p>
+								IT-услуги
+							</p>
+							<ul>
+								<li>
+									IT-аудит
+								</li>
+								<li>
+									Обслуживание СКС и Wi-Fi сетей
+								</li>
+								<li>
+									Объединение удалённых офисоф в едину сеть VPN
+								</li>
+								<li>
+									Настройка ЭЦП
+								</li>
+								<li>
+									Почтовый сервер
+								</li>
+							</ul>
+						</div>
+						<div>
+							<img src="img/ser4.png" alt="">
+							<p>
+								IP-телефония
+							</p>
+							<ul>
+								<li>
+									IT-аудит
+								</li>
+								<li>
+									Обслуживание СКС и Wi-Fi сетей
+								</li>
+								<li>
+									Объединение удалённых офисоф в едину сеть VPN
+								</li>
+								<li>
+									Настройка ЭЦП
+								</li>
+								<li>
+									Почтовый сервер
+								</li>
+							</ul>
+						</div>
+						<div>
+							<img src="img/ser3.png" alt="">
+							<p>
+								Разработка электроники
+							</p>
+							<ul>
+								<li>
+									IT-аудит
+								</li>
+								<li>
+									Обслуживание СКС и Wi-Fi сетей
+								</li>
+								<li>
+									Объединение удалённых офисоф в едину сеть VPN
+								</li>
+								<li>
+									Настройка ЭЦП
+								</li>
+								<li>
+									Почтовый сервер
+								</li>
+							</ul>
+						</div>
+						<div>
+							<img src="img/ser5.png" alt="">
+							<p>
+								Поддержка 1С
+							</p>
+							<ul>
+								<li>
+									IT-аудит
+								</li>
+								<li>
+									Обслуживание СКС и Wi-Fi сетей
+								</li>
+								<li>
+									Объединение удалённых офисоф в едину сеть VPN
+								</li>
+								<li>
+									Настройка ЭЦП
+								</li>
+								<li>
+									Почтовый сервер
+								</li>
+							</ul>
+						</div>
+					</div>
+					<div class="ser__right">
+						<div>
+							<img src="img/ser6.png" alt="">
+							<p>
+								Ремонт техники
+							</p>
+							<ul>
+								<li>
+									IT-аудит
+								</li>
+								<li>
+									Обслуживание СКС и Wi-Fi сетей
+								</li>
+								<li>
+									Объединение удалённых офисоф в едину сеть VPN
+								</li>
+								<li>
+									Настройка ЭЦП
+								</li>
+								<li>
+									Почтовый сервер
+								</li>
+							</ul>
+						</div>
+					</div>
+					<div class="ser__bottom">
+						<div>
+							<img src="img/ser7.png" alt="">
+							<p>
+								Администрирование серверов
+							</p>
+							<ul>
+								<li>
+									IT-аудит
+								</li>
+								<li>
+									Обслуживание СКС и Wi-Fi сетей
+								</li>
+								<li>
+									Объединение удалённых офисоф в едину сеть VPN
+								</li>
+								<li>
+									Настройка ЭЦП
+								</li>
+								<li>
+									Почтовый сервер
+								</li>
+							</ul>
+						</div>
+						<div>
+							<img src="img/ser8.png" alt="">
+							<p>
+								Разработка программного обеспечения
+							</p>
+							<ul>
+								<li>
+									IT-аудит
+								</li>
+								<li>
+									Обслуживание СКС и Wi-Fi сетей
+								</li>
+								<li>
+									Объединение удалённых офисоф в едину сеть VPN
+								</li>
+								<li>
+									Настройка ЭЦП
+								</li>
+								<li>
+									Почтовый сервер
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="info" id="info">
+			<div class="container">
+				<p class="sub">
+					Ростов-на-Дону, Таганрог, Новочеркасск
+				</p>
+				<h2>
+					<span class="blue">IT-аутсорсинг</span>, обслуживание компьютеров
+				</h2>
+				<div class="info__box q">
+					<img src="img/info.png" alt="">
+					<div class="info__content">
+						<h3>
+							IT-аутсорсинг или штатный системный администратор?
+						</h3>
+						<p>
+							Многих предпринимателей интересует вопрос: что является более выгодным для компании: услуги
+							ИТ-аутсорсинга в Ростове или все же содержание собственного штата специалистов? По сравнению со
+							штатным системным администратором, наша компания не ограничивает свою ответственность должностными
+							инструкциями и гарантирует выполнение всех возложенных на нее обязательств, закрепляя это
+							Договором. Кроме того, предлагаемая вашему вниманию услуга позволяет существенно снизить расходы
+							компании на содержание штата соответствующих специалистов. ИТ-аутсорсинг в Ростове-на-Дону
+							позволяет современному предприятию сконцентрировать силы и внимание на выполнении профильных задач,
+							при этом наладив эффективную работу информационных систем и решив проблему с нехваткой
+							высококвалифицированных специалистов. Не менее важным является и то, что, воспользовавшись услугами
+							ИТ-аутсорсинга, вы сводите к минимуму риск потери важных данных. Так, рядовой технический
+							специалист, «слив» базы данных заинтересованным лицам, то есть вашим конкурентам, в большинстве
+							случаев остается безнаказанным. Между тем, факт утечки данных по вине компании-аутсорсера влечет
+							для последней невосполнимые репутационные потери, а также огромные финансовые убытки.
+						</p>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="how" id="how">
+			<div class="container">
+				<p class="sub">
+					Как мы оказываем услугу?
+				</p>
+				<h2>
+					Услуга <span class="blue">IT-аутсорсинга</span>
+				</h2>
+				<div class="how__box q">
+					<div class="how__item">
+						<div>
+							<p>
+								У Вас есть заключенный с нами договор на абонентское обслуживание компьютеров и возник инцедент?
+							</p>
+						</div>
+						<div>
+							<ul>
+								<li>
+									Вы можете написать нам на e-mail (автоматически будет открыта заявка в OTRS ITSM)
+								</li>
+								<li>
+									Открыть заявку самостоятельно через систему заявок с указанием приоритета
+								</li>
+								<li>
+									Позвонить инженеру, который привязан к Вам
+								</li>
+								<li>
+									Создать заявку в Вашей системе заявок (актуально для филиалов)
+								</li>
+							</ul>
+						</div>
+					</div>
+					<div class="how__item">
+						<div>
+							<p>
+								Фиксируем инцидент в системе заявок
+							</p>
+						</div>
+						<div>
+							<ul>
+								<li>
+									Независимо от того кому Вы сообщили о своей проблеме — Ваш инцидент будет помещен в нашу
+									систему заявок
+								</li>
+							</ul>
+						</div>
+					</div>
+					<div class="how__item">
+						<div>
+							<p>
+								Возможна удалённая помощь
+							</p>
+						</div>
+						<div>
+							<ul>
+								<li>
+									Если возможно оказать Вам помощь удалённо, то мы незамедлительно приступаем к решению
+									проблемы
+								</li>
+							</ul>
+						</div>
+					</div>
+					<div class="how__item">
+						<div>
+							<p>
+								Приезд инженера
+							</p>
+						</div>
+						<div>
+							<ul>
+								<li>
+									К Вам направляется системный администратор, который прикреплён за Вашей организацией
+								</li>
+								<li>
+									После успешного решения проблемы нам не нужно подписывать никакие акты — незачем отвлекать
+									Ваших сотрудников
+								</li>
+								<li>
+									Инженер в своей машине всегда возит с собой минимальный набор необходимых запчастей для
+									ремонта ПК: блоки питания, оперативную память, кулеры и т. п.
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="calc" id="calc">
+			<div class="container">
+				<p class="sub">
+					Рассчитайте стоимость IT-аутсорсинга
+				</p>
+				<h2>
+					Калькулятор
+				</h2>
+				<form action="#" class="calc__form">
+					<div class="calc__row q">
+						<div class="calc__item">
+							<label>
+								Город <br> оказания услуг
+							</label>
+							<select class="select">
+								<option value="1">Ростов-на-Дону</option>
+								<option value="2">Краснодар</option>
+								<option value="3">Новочеркасск</option>
+								<option value="4">Таганрог</option>
+							</select>
+						</div>
+						<div class="calc__item">
+							<label>
+								Срок <br> реагирования (SLA)
+							</label>
+							<select class="select">
+								<option value="1">1 час</option>
+								<option value="2">2 часа</option>
+								<option value="3">3 часа</option>
+								<option value="4">4 часа</option>
+							</select>
+						</div>
+						<div class="calc__item">
+							<label>
+								Количество компьютеров
+							</label>
+							<div id="incdec">
+								<input type="number" placeholder="Введите число" value="0">
+								<img src="img/up.svg" id="up" />
+								<img src="img/own.svg" id="down" />
+							</div>
+						</div>
+						<div class="calc__item">
+							<label>
+								Количество <br> серверов
+							</label>
+							<div id="incdec2">
+								<input type="number" placeholder="Введите число" value="0">
+								<img src="img/up.svg" id="up2" />
+								<img src="img/own.svg" id="down2" />
+							</div>
+						</div>
+						<div class="calc__item">
+							<label>
+								Количество периферийного оборудования (МФУ, принтеры...)
+							</label>
+							<input type="number" placeholder="Введите число">
+						</div>
+					</div>
+					<div class="calc__area q">
+						<div class="checkbox q">
+							<input class="form-check-input custom-checkbox form-control" type="checkbox" name="check"
+								id="form1" value="Разрешено использовать удалённый доступ">
+							<label class="form-check-label " for="form1">
+								Разрешено использовать удалённый доступ
+							</label>
+						</div>
+						<div class="checkbox q">
+							<input class="form-check-input custom-checkbox form-control" type="checkbox" name="check"
+								id="form2" value="Разрешено использовать удалённый доступ">
+							<label class="form-check-label " for="form2">
+								Поддержка в выходные и праздничные дни
+							</label>
+						</div>
+						<div class="checkbox q">
+							<input class="form-check-input custom-checkbox form-control" type="checkbox" name="check"
+								id="form3" value="Разрешено использовать удалённый доступ">
+							<label class="form-check-label " for="form3">
+								Есть свой IT-отдел и своя первая линия поддержки
+							</label>
+						</div>
+						<div class="checkbox q">
+							<input class="form-check-input custom-checkbox form-control" type="checkbox" name="check"
+								id="form4" value="Разрешено использовать удалённый доступ">
+							<label class="form-check-label " for="form4">
+								Предоставить первую линию поддержки
+							</label>
+						</div>
+					</div>
+					<div class="calc__info q">
+						<p class="calc__sum">
+							Итоговая стоимость обслуживания: 3000 рублей
+						</p>
+						<button class="calc__btn btn">
+							Получить ценовое предложение
+						</button>
+					</div>
+				</form>
+			</div>
+		</section>
+		<section class="blog" id="blog">
+			<div class="container">
+				<p class="sub">
+					Узнай новое первым
+				</p>
+				<h2>
+					Блог
+				</h2>
+				<div class="swiper-button-next1 blog__arr">
+					<img src="img/right.svg" alt="" class="svg">
+				</div>
+				<div class="swiper-button-prev1 blog__arr">
+					<img src="img/left.svg" alt="" class="svg">
+				</div>
+				<div class="swiper1">
+					<div class="swiper-wrapper">
+						<div class="swiper-slide">
+							<img src="img/blog.png" alt="">
+							<div class="blog__content">
+								<div class="blog__top q">
+									<h3>
+										РБК
+									</h3>
+									<span>
+										31.01.2024
+									</span>
+								</div>
+								<p>
+									Разработчики софта предложили изменить меры поддержки по модели автопрома. Зачем давать
+									скидки и бонусы покупателям российских IT-решений..
+								</p>
+								<a href="#">
+									Читать всю статью <img src="img/blog.svg" alt="" class="svg">
+								</a>
+							</div>
+						</div>
+						<div class="swiper-slide">
+							<img src="img/blog.png" alt="">
+							<div class="blog__content">
+								<div class="blog__top q">
+									<h3>
+										РБК
+									</h3>
+									<span>
+										31.01.2024
+									</span>
+								</div>
+								<p>
+									Разработчики софта предложили изменить меры поддержки по модели автопрома. Зачем давать
+									скидки и бонусы покупателям российских IT-решений..
+								</p>
+								<a href="#">
+									Читать всю статью <img src="img/blog.svg" alt="" class="svg">
+								</a>
+							</div>
+						</div>
+						<div class="swiper-slide">
+							<img src="img/blog.png" alt="">
+							<div class="blog__content">
+								<div class="blog__top q">
+									<h3>
+										РБК
+									</h3>
+									<span>
+										31.01.2024
+									</span>
+								</div>
+								<p>
+									Разработчики софта предложили изменить меры поддержки по модели автопрома. Зачем давать
+									скидки и бонусы покупателям российских IT-решений..
+								</p>
+								<a href="#">
+									Читать всю статью <img src="img/blog.svg" alt="" class="svg">
+								</a>
+							</div>
+						</div>
+						<div class="swiper-slide">
+							<img src="img/blog.png" alt="">
+							<div class="blog__content">
+								<div class="blog__top q">
+									<h3>
+										РБК
+									</h3>
+									<span>
+										31.01.2024
+									</span>
+								</div>
+								<p>
+									Разработчики софта предложили изменить меры поддержки по модели автопрома. Зачем давать
+									скидки и бонусы покупателям российских IT-решений..
+								</p>
+								<a href="#">
+									Читать всю статью <img src="img/blog.svg" alt="" class="svg">
+								</a>
+							</div>
+						</div>
+						<div class="swiper-slide">
+							<img src="img/blog.png" alt="">
+							<div class="blog__content">
+								<div class="blog__top q">
+									<h3>
+										РБК
+									</h3>
+									<span>
+										31.01.2024
+									</span>
+								</div>
+								<p>
+									Разработчики софта предложили изменить меры поддержки по модели автопрома. Зачем давать
+									скидки и бонусы покупателям российских IT-решений..
+								</p>
+								<a href="#">
+									Читать всю статью <img src="img/blog.svg" alt="" class="svg">
+								</a>
+							</div>
+						</div>
+						<div class="swiper-slide">
+							<img src="img/blog.png" alt="">
+							<div class="blog__content">
+								<div class="blog__top q">
+									<h3>
+										РБК
+									</h3>
+									<span>
+										31.01.2024
+									</span>
+								</div>
+								<p>
+									Разработчики софта предложили изменить меры поддержки по модели автопрома. Зачем давать
+									скидки и бонусы покупателям российских IT-решений..
+								</p>
+								<a href="#">
+									Читать всю статью <img src="img/blog.svg" alt="" class="svg">
+								</a>
+							</div>
+						</div>
+					</div>
+					<div class="swiper-pagination1"></div>
+				</div>
+			</div>
+		</section>
+		<section class="faq" id="faq">
+			<div class="container">
+				<p class="sub">
+					Есть вопросы?
+				</p>
+				<h2>
+					FAQ
+				</h2>
+				<div class="accordeon">
+					<div class="accordeon-container">
+						<li class="accordeon__item">
+							<div class="accordeon__button closed"> Где вы находитесь?
+							</div>
+							<ul class="accordeon__panel">
+								<li class="panel__text">
+									Мы не сидим в одном месте. Инженеры находятся в разных частях Краснодара и
+									Ростова-на-Дону, Таганрога и Новочеркасска, что позволяет нам значительно повысить
+									оперативность реагирования на инциденты. В каждом из районов города находятся 1-2 дежурных
+									инженера
+								</li>
+							</ul>
+						</li>
+						<li class="accordeon__item">
+							<div class="accordeon__button closed">Как с вами связаться?
+							</div>
+							<ul class="accordeon__panel">
+								<li class="panel__text">
+									Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
+									Ipsum has been the
+									industry's standard dummy text ever since the 1500s, when an unknown printer took a
+									galley of type and
+									scrambled it to make a type specimen book. It has survived not only five centuries,
+									but also the leap into
+									electronic typesetting.
+								</li>
+							</ul>
+						</li>
+						<li class="accordeon__item">
+							<div class="accordeon__button closed">Занимаетесь ли вы ремонтом компьютеров?
+							</div>
+							<ul class="accordeon__panel">
+								<li class="panel__text">
+									Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
+									Ipsum has been the
+									industry's standard dummy text ever since the 1500s, when an unknown printer took a
+									galley of type and
+									scrambled it to make a type specimen book. It has survived not only five centuries,
+									but also the leap into
+									electronic typesetting.
+								</li>
+							</ul>
+						</li>
+						<li class="accordeon__item">
+							<div class="accordeon__button closed">Какие IT-услуги вы предоставляете?
+							</div>
+							<ul class="accordeon__panel">
+								<li class="panel__text">
+									Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
+									Ipsum has been the
+									industry's standard dummy text ever since the 1500s, when an unknown printer took a
+									galley of type and
+									scrambled it to make a type specimen book. It has survived not only five centuries,
+									but also the leap into
+									electronic typesetting.
+								</li>
+							</ul>
+						</li>
+						<li class="accordeon__item">
+							<div class="accordeon__button closed">Как быстро вы отвечаете на вопросы, отправленные на почту?
+							</div>
+							<ul class="accordeon__panel">
+								<li class="panel__text">
+									Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
+									Ipsum has been the
+									industry's standard dummy text ever since the 1500s, when an unknown printer took a
+									galley of type and
+									scrambled it to make a type specimen book. It has survived not only five centuries,
+									but also the leap into
+									electronic typesetting.
+								</li>
+							</ul>
+						</li>
+						<li class="accordeon__item">
+							<div class="accordeon__button closed">Как быстро вы обрабатываете заявки?
+							</div>
+							<ul class="accordeon__panel">
+								<li class="panel__text">
+									Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
+									Ipsum has been the
+									industry's standard dummy text ever since the 1500s, when an unknown printer took a
+									galley of type and
+									scrambled it to make a type specimen book. It has survived not only five centuries,
+									but also the leap into
+									electronic typesetting.
+								</li>
+							</ul>
+						</li>
+						<li class="accordeon__item">
+							<div class="accordeon__button closed">Какой у вас рабочий график?
+							</div>
+							<ul class="accordeon__panel">
+								<li class="panel__text">
+									Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
+									Ipsum has been the
+									industry's standard dummy text ever since the 1500s, when an unknown printer took a
+									galley of type and
+									scrambled it to make a type specimen book. It has survived not only five centuries,
+									but also the leap into
+									electronic typesetting.
+								</li>
+							</ul>
+						</li>
+					</div>
+				</div>
+				<p class="faq__info">
+					Не наши ответа на свой вопрос? Напишите нам! <br> Наши сотрудники внимательно относятсяя ко всем
+					сообщениям
+					клиентов
+				</p>
+				<a href="#" class="faq__btn btn">
+					Задать вопрос
+				</a>
+			</div>
+		</section>
+		<section class="local" id="local">
+			<div class="container">
+				<p class="sub">
+					Где мы?
+				</p>
+				<h2>
+					Наши <span class="blue">контакты</span>
+				</h2>
+				<div id="map"></div>
+				<div class="local__content q">
+					<div class="local__item">
+						<h3>
+							Ростов-на-дону
+						</h3>
+						<div class="local__area">
+							<p>
+								Телефон в Ростове-на-Дону:
+							</p>
+							<a href="tel:+79282960980">
+								+7 (928) 296 09 80 <img src="img/local.svg" alt="" class="svg">
+							</a>
+						</div>
+						<div class="local__area">
+							<p>
+								Наш адрес в Ростове-на-Дону:
+							</p>
+							<p>
+								344038, Ростов-на-Дону, пр-т. Михаила Нагибина, д. 19, оф. 57
+							</p>
+						</div>
+						<div class="local__area">
+							<p>
+								E-mail:
+							</p>
+							<a href="mailto:info@itaero.ru">
+								info@itaero.ru
+							</a>
+						</div>
+						<div class="local__area">
+							<p>
+								ООО «АйтиАэро»
+							</p>
+							<p>
+								ОГРН 1176196011815
+							</p>
+							<p>
+								ИНН/КПП 6161080978/616101001
+							</p>
+						</div>
+					</div>
+					<div class="local__item">
+						<h3>
+							Краснодар
+						</h3>
+						<div class="local__area">
+							<p>
+								Телефон в Краснодаре:
+							</p>
+							<a href="tel:+79282960980">
+								+7 (928) 296 09 80 <img src="img/local.svg" alt="" class="svg">
+							</a>
+						</div>
+						<div class="local__area">
+							<p>
+								Наш адрес в Краснодаре: 
+							</p>
+							<p>
+								350000, Краснодар, ул. Кирова, д. 234
+							</p>
+						</div>
+						<div class="local__area">
+							<p>
+								E-mail:
+							</p>
+							<a href="mailto:info@itaero.ru">
+								info@itaero.ru
+							</a>
+						</div>
+					</div>
+					<div class="local__item">
+						<h3>
+							Новочеркасск
+						</h3>
+						<div class="local__area">
+							<p>
+								Телефон в Новочеркасске:
+							</p>
+							<a href="tel:+79282960980">
+								+7 (928) 296 09 80 <img src="img/local.svg" alt="" class="svg">
+							</a>
+						</div>
+						<div class="local__area">
+							<p>
+								Наш адрес в Новочеркасске:
+							</p>
+							<p>
+								350000, Краснодар, ул. Кирова, д. 234
+							</p>
+						</div>
+						<div class="local__area">
+							<p>
+								E-mail:
+							</p>
+							<a href="mailto:info@itaero.ru">
+								info@itaero.ru
+							</a>
+						</div>
+					</div>
+					<div class="local__item">
+						<h3>
+							Таганрог
+						</h3>
+						<div class="local__area">
+							<p>
+								Телефон в Таганроге:
+							</p>
+							<a href="tel:+79282960980">
+								+7 (928) 296 09 80 <img src="img/local.svg" alt="" class="svg">
+							</a>
+						</div>
+						<div class="local__area">
+							<p>
+								Наш адрес в Таганроге:
+							</p>
+							<p>
+								350000, Краснодар, ул. Кирова, д. 234
+							</p>
+						</div>
+						<div class="local__area">
+							<p>
+								E-mail:
+							</p>
+							<a href="mailto:info@itaero.ru">
+								info@itaero.ru
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<div class="fig">
+			<div>
+				<img src="img/logo.svg" alt="">
+			</div>
+		</div>
+		<footer class="footer" id="footer">
+			<div class="container">
+				<div class="footer__box q">
+					<div class="footer__item">
+						<p>
+							Меню:
+						</p>
+						<ul>
+							<li>
+								<a href="#">
+									О нас
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									Услуги
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									Портфолио
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									IT-аутсорсинг
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									Калькулятор
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									Блог
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									FAQ
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									Контакты
+								</a>
+							</li>
+						</ul>
+					</div>
+					<div class="footer__item">
+						<p>
+							Услуги:
+						</p>
+						<ul>
+							<li>
+								<a href="#">
+									IT-аутсорсинг
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									IT-услуги
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									Разработка электроники
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									Ремонт техники
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									IP-телефония
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									Поддержка 1С
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									Администрирование серверов
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									Разработка программного обеспечения
+								</a>
+							</li>
+						</ul>
+					</div>
+					<div class="footer__item">
+						<p>
+							Города:
+						</p>
+						<ul>
+							<li>
+								<a href="#">
+									Ростов-на-Дону
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									Краснодар
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									Новочеркасск
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									Таганрог
+								</a>
+							</li>
+						</ul>
+					</div>
+					<div class="footer__item">
+						<p>
+							Напишите нам:
+						</p>
+						<a href="#" class="footer__tel">
+							ITAeroBot <img src="img/tele-white.svg" alt="" class="svg">
+						</a>
+						<p class="footer__mail">
+							E-mail: <a href="mailto:info@itaero.ru">info@itaero.ru</a>
+						</p>
+						<span>
+							ООО «АйтиАэро», 2024
+						</span>
+					</div>
+				</div>
+			</div>
+		</footer>
+		<script type="text/javascript">
+			ymaps.ready(init);
+
+			function init() {
+				var myMap = new ymaps.Map("map", {
+					// Центр карты, указываем коордианты
+					center: [47.248779, 39.711860],
+					// Масштаб, тут все просто
+					zoom: 14,
+					// Отключаем все элементы управления
+					controls: []
+				});
+
+				var myGeoObjects = [];
+
+				// Наша метка, указываем коордианты
+				myGeoObjects = new ymaps.Placemark([47.248779, 39.711860], {
+					balloonContentBody: 'ЧистоGUN',
+				}, {
+					iconLayout: 'default#image',
+					// Путь до нашей картинки
+					iconImageHref: 'img/map.svg',
+					// Размер по ширине и высоте
+					iconImageSize: [50, 70],
+					// Смещение левого верхнего угла иконки относительно
+					// её «ножки» (точки привязки).
+					iconImageOffset: [-35, -35]
+				});
+
+				var clusterer = new ymaps.Clusterer({
+					clusterDisableClickZoom: false,
+					clusterOpenBalloonOnClick: false,
+				});
+
+				clusterer.add(myGeoObjects);
+				myMap.geoObjects.add(clusterer);
+				// Отлючаем возможность изменения масштаба
+				myMap.behaviors.disable('scrollZoom');
+
+			}
+		</script>
+		<script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+		<script src="https://code.jquery.com/jquery-3.3.1.min.js?ver=5.1"></script>
+		<script src="js/all.js"></script>
+</body>
+
+</html>
