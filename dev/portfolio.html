@@ -1,0 +1,508 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<meta charset="UTF-8">
+
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="format-detection" content="telephone=no">
+	<meta name="format-detection" content="date=no">
+	<meta name="format-detection" content="address=no">
+	<meta name="format-detection" content="email=no">
+	<meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests" />
+	<meta name="apple-mobile-web-app-status-bar-style" content="default">
+
+	<title>ITAero</title>
+	<meta name="keywords" content="">
+	<meta name="description" content="">
+
+	<meta property="og:locale" content="ru-Ru">
+	<meta property="og:type" content="website">
+	<meta property="og:title" content="">
+	<meta property="og:description" content="">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+		rel="stylesheet">
+	<script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU" type="text/javascript"></script>
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+
+</head>
+
+<body>
+	<div class="body-wrap">
+		<header class="header" id="header">
+			<nav class="nav">
+				<div class="container">
+					<div class="nav__box q">
+						<a href="main.html" class="nav__logo">
+							<img src="img/logo.svg" alt="">
+						</a>
+						<ul class="main__ul">
+							<li>
+								<a href="#">
+									О нас
+								</a>
+							</li>
+							<li class="open">
+								<a href="#">
+									Услуги
+								</a>
+								<div class="open__menu q">
+									<ul class="q">
+										<li>
+											<a href="#">
+												IT-аутсорсинг
+											</a>
+										</li>
+										<li>
+											<a href="#">
+												Разработка электроники
+											</a>
+										</li>
+										<li>
+											<a href="#">
+												IP-телефония
+											</a>
+										</li>
+										<li>
+											<a href="#">
+												Администрирование серверов
+											</a>
+										</li>
+										<li>
+											<a href="#">
+												IT-услуги
+											</a>
+										</li>
+										<li>
+											<a href="#">
+												Ремонт техники
+											</a>
+										</li>
+										<li>
+											<a href="#">
+												Поддержка 1С
+											</a>
+										</li>
+										<li>
+											<a href="#">
+												Разработка программного обеспечения
+											</a>
+										</li>
+									</ul>
+								</div>
+							</li>
+							<li>
+								<a href="#">
+									Портфолио
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									Блог
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									Контакты
+								</a>
+							</li>
+						</ul>
+						<a href="#" class="nav__bot q" target="_blank">
+							<p>
+								ITAeroBot
+							</p>
+							<img src="img/tele.svg" alt="" class="svg">
+						</a>
+					</div>
+					<div class="menu-btn">
+						<span></span>
+						<span></span>
+						<span></span>
+					</div>
+				</div>
+			</nav>
+			<div class="menu">
+				<ul>
+					<li>
+						<a href="#">
+							О нас
+						</a>
+					</li>
+					<li>
+						<div class="accordion-container">
+							<div class="set">
+								<a href="#">
+									Услуги
+								</a>
+								<div class="content">
+									<ul>
+										<li>
+											<a href="#">
+												IT-аутсорсинг
+											</a>
+										</li>
+										<li>
+											<a href="#">
+												IT-услуги
+											</a>
+										</li>
+										<li>
+											<a href="#">
+												Разработка электроники
+											</a>
+										</li>
+										<li>
+											<a href="#">
+												Ремонт техники
+											</a>
+										</li>
+										<li>
+											<a href="#">
+												IP-телефония
+											</a>
+										</li>
+										<li>
+											<a href="#">
+												Поддержка 1С
+											</a>
+										</li>
+										<li>
+											<a href="#">
+												Администрирование серверов
+											</a>
+										</li>
+										<li>
+											<a href="#">
+												Разработка программного обеспечения
+											</a>
+										</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</li>
+					<li>
+						<a href="#">
+							Портфолио
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							IT-аутсорсинг
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							Калькулятор
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							Блог
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							FAQ
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							Контакты
+						</a>
+					</li>
+				</ul>
+			</div>
+		</header>
+		<section class="services portfolio" id="portfolio">
+			<div class="container">
+				<div class="bread q">
+					<a href="main.html">
+						Главная
+					</a>
+					<a href="portfolio.html">
+						Портфолио
+					</a>
+				</div>
+				<p class="sub">
+					наши проекты - ваш ключ к эффективности
+				</p>
+				<h2>
+					Портфолио <span class="blue">проектов</span>
+				</h2>
+				<div class="portfolio__box q">
+					<a href="#" class="portfolio__item">
+						<img src="img/port1.png" alt="">
+						<p>
+							IT-аутсорсинг для строительной компании «Строительная»
+						</p>
+					</a>
+					<a href="#" class="portfolio__item">
+						<img src="img/port2.png" alt="">
+						<p>
+							Подключение IP-телефонии для компании «Телефонная»
+						</p>
+					</a>
+					<a href="#" class="portfolio__item">
+						<img src="img/port3.png" alt="">
+						<p>
+							Разработка ПО для компании «Программная жизнь»
+						</p>
+					</a>
+					<a href="#" class="portfolio__item">
+						<img src="img/port4.png" alt="">
+						<p>
+							Комплексный IT-аудит для компании «Финансовая стратегия»
+						</p>
+					</a>
+					<a href="#" class="portfolio__item">
+						<img src="img/port5.png" alt="">
+						<p>
+							Настройка ЭЦП для филиала компании «Электронная»
+						</p>
+					</a>
+					<a href="#" class="portfolio__item">
+						<img src="img/port6.png" alt="">
+						<p>
+							Разработка почтового сервера для компании «Почтальон»
+						</p>
+					</a>
+					<a href="#" class="portfolio__item">
+						<img src="img/port7.png" alt="">
+						<p>
+							Разработка электроники для компании «Электроник»
+						</p>
+					</a>
+					<a href="#" class="portfolio__item">
+						<img src="img/port8.png" alt="">
+						<p>
+							Администрирование серверов для компании «Серверная»
+						</p>
+					</a>
+					<a href="#" class="portfolio__item">
+						<img src="img/port9.png" alt="">
+						<p>
+							Подключение IP-телефонии для компании «Телефонная 2»
+						</p>
+					</a>
+					<a href="#" class="portfolio__item">
+						<img src="img/port10.png" alt="">
+						<p>
+							Администрирование серверов для компании «Серверная 2»
+						</p>
+					</a>
+					<a href="#" class="portfolio__item">
+						<img src="img/port11.png" alt="">
+						<p>
+							Ремонт техники в филиале компании «Технологическая»
+						</p>
+					</a>
+					<a href="#" class="portfolio__item">
+						<img src="img/port12.png" alt="">
+						<p>
+							IT-аутсорсинг для филиала компании «Строительная»
+						</p>
+					</a>
+				</div>
+				<a href="#" class="portfolio__btn btn">
+					Смотреть наши услуги
+				</a>
+			</div>
+		</section>
+		<div class="fig">
+			<div>
+				<img src="img/logo.svg" alt="">
+			</div>
+		</div>
+		<footer class="footer" id="footer">
+			<div class="container">
+				<div class="footer__box q">
+					<div class="footer__item">
+						<p>
+							Меню:
+						</p>
+						<ul>
+							<li>
+								<a href="#">
+									О нас
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									Услуги
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									Портфолио
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									IT-аутсорсинг
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									Калькулятор
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									Блог
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									FAQ
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									Контакты
+								</a>
+							</li>
+						</ul>
+					</div>
+					<div class="footer__item">
+						<p>
+							Услуги:
+						</p>
+						<ul>
+							<li>
+								<a href="#">
+									IT-аутсорсинг
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									IT-услуги
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									Разработка электроники
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									Ремонт техники
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									IP-телефония
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									Поддержка 1С
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									Администрирование серверов
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									Разработка программного обеспечения
+								</a>
+							</li>
+						</ul>
+					</div>
+					<div class="footer__item">
+						<p>
+							Города:
+						</p>
+						<ul>
+							<li>
+								<a href="#">
+									Ростов-на-Дону
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									Краснодар
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									Новочеркасск
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									Таганрог
+								</a>
+							</li>
+						</ul>
+					</div>
+					<div class="footer__item">
+						<p>
+							Напишите нам:
+						</p>
+						<a href="#" class="footer__tel">
+							ITAeroBot <img src="img/tele-white.svg" alt="" class="svg">
+						</a>
+						<p class="footer__mail">
+							E-mail: <a href="mailto:info@itaero.ru">info@itaero.ru</a>
+						</p>
+						<span>
+							ООО «АйтиАэро», 2024
+						</span>
+					</div>
+				</div>
+			</div>
+		</footer>
+		<script type="text/javascript">
+			ymaps.ready(init);
+
+			function init() {
+				var myMap = new ymaps.Map("map", {
+					// Центр карты, указываем коордианты
+					center: [47.248779, 39.711860],
+					// Масштаб, тут все просто
+					zoom: 14,
+					// Отключаем все элементы управления
+					controls: []
+				});
+
+				var myGeoObjects = [];
+
+				// Наша метка, указываем коордианты
+				myGeoObjects = new ymaps.Placemark([47.248779, 39.711860], {
+					balloonContentBody: 'ЧистоGUN',
+				}, {
+					iconLayout: 'default#image',
+					// Путь до нашей картинки
+					iconImageHref: 'img/map.svg',
+					// Размер по ширине и высоте
+					iconImageSize: [50, 70],
+					// Смещение левого верхнего угла иконки относительно
+					// её «ножки» (точки привязки).
+					iconImageOffset: [-35, -35]
+				});
+
+				var clusterer = new ymaps.Clusterer({
+					clusterDisableClickZoom: false,
+					clusterOpenBalloonOnClick: false,
+				});
+
+				clusterer.add(myGeoObjects);
+				myMap.geoObjects.add(clusterer);
+				// Отлючаем возможность изменения масштаба
+				myMap.behaviors.disable('scrollZoom');
+
+			}
+		</script>
+		<script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+		<script src="https://code.jquery.com/jquery-3.3.1.min.js?ver=5.1"></script>
+		<script src="js/all.js"></script>
+</body>
+
+</html>

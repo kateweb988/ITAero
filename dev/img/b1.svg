@@ -1,0 +1,21 @@
+<svg width="110" height="110" viewBox="0 0 110 110" fill="none" xmlns="http://www.w3.org/2000/svg">
+<circle cx="55" cy="55" r="55" fill="#BFE6F6"/>
+<rect x="36" y="31" width="38" height="48" rx="3" stroke="white" stroke-width="2"/>
+<rect x="47.6328" y="61.6895" width="20.3509" height="1.40845" rx="0.704225" fill="white"/>
+<rect x="47.6328" y="56.7598" width="20.3509" height="1.40845" rx="0.704225" fill="white"/>
+<rect x="42.0166" y="71.5488" width="3.50877" height="1.40845" rx="0.704225" fill="white"/>
+<rect x="42.0166" y="61.6895" width="3.50877" height="1.40845" rx="0.704225" fill="white"/>
+<rect x="42.0166" y="56.7598" width="3.50877" height="1.40845" rx="0.704225" fill="white"/>
+<rect x="47.6328" y="66.6191" width="20.3509" height="1.40845" rx="0.704225" fill="white"/>
+<rect x="42.0166" y="66.6191" width="3.50877" height="1.40845" rx="0.704225" fill="white"/>
+<rect x="47.6328" y="71.5488" width="20.3509" height="1.40845" rx="0.704225" fill="white"/>
+<rect width="10.5449" height="1.40598" rx="0.702991" transform="matrix(0.705863 -0.708348 0.705863 0.708348 41.8672 53.1035)" fill="white"/>
+<rect width="10.5449" height="1.40598" rx="0.702991" transform="matrix(0.705863 -0.708348 0.705863 0.708348 59.7305 45.1348)" fill="white"/>
+<rect width="10.5449" height="1.40598" rx="0.702991" transform="matrix(0.705863 -0.708348 0.705863 0.708348 50.8008 49.1211)" fill="white"/>
+<rect width="4.92094" height="1.40598" rx="0.702991" transform="matrix(0.705863 0.708348 -0.705863 0.708348 49.3096 45.6328)" fill="white"/>
+<rect width="4.92094" height="1.40598" rx="0.702991" transform="matrix(0.705863 0.708348 -0.705863 0.708348 58.2432 41.6504)" fill="white"/>
+<rect x="67.9805" y="37.748" width="4.92958" height="1.40351" rx="0.702991" transform="rotate(90 67.9805 37.748)" fill="white"/>
+<rect x="67.9805" y="39.1562" width="4.91228" height="1.40845" rx="0.702991" transform="rotate(-180 67.9805 39.1562)" fill="white"/>
+<circle cx="1.40598" cy="1.40598" r="1.40598" transform="matrix(0.705863 -0.708348 0.705863 0.708348 56.2578 42.6465)" fill="white"/>
+<circle cx="1.40598" cy="1.40598" r="1.40598" transform="matrix(0.705863 -0.708348 0.705863 0.708348 47.3252 46.6309)" fill="white"/>
+</svg>

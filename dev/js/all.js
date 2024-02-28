@@ -1,56 +1,4 @@
 
-document.addEventListener("DOMContentLoaded", () => {
-  class ItcTabs {
-    constructor(target, config) {
-      const defaultConfig = {};
-      this._config = Object.assign(defaultConfig, config);
-      this._elTabs = typeof target === 'string' ? document.querySelector(target) : target;
-      this._elButtons = this._elTabs.querySelectorAll('.tabs__btn');
-      this._elPanes = this._elTabs.querySelectorAll('.tabs__pane');
-      this._eventShow = new Event('tab.itc.change');
-      this._init();
-      this._events();
-    }
-    _init() {
-      this._elTabs.setAttribute('role', 'tablist');
-      this._elButtons.forEach((el, index) => {
-        el.dataset.index = index;
-        el.setAttribute('role', 'tab');
-        this._elPanes[index].setAttribute('role', 'tabpanel');
-      });
-    }
-    show(elLinkTarget) {
-      const elPaneTarget = this._elPanes[elLinkTarget.dataset.index];
-      const elLinkActive = this._elTabs.querySelector('.tabs__btn_active');
-      const elPaneShow = this._elTabs.querySelector('.tabs__pane_show');
-      if (elLinkTarget === elLinkActive) {
-        return;
-      }
-      elLinkActive ? elLinkActive.classList.remove('tabs__btn_active') : null;
-      elPaneShow ? elPaneShow.classList.remove('tabs__pane_show') : null;
-      elLinkTarget.classList.add('tabs__btn_active');
-      elPaneTarget.classList.add('tabs__pane_show');
-      this._elTabs.dispatchEvent(this._eventShow);
-      elLinkTarget.focus();
-    }
-    showByIndex(index) {
-      const elLinkTarget = this._elButtons[index];
-      elLinkTarget ? this.show(elLinkTarget) : null;
-    };
-    _events() {
-      this._elTabs.addEventListener('click', (e) => {
-        const target = e.target.closest('.tabs__btn');
-        if (target) {
-          e.preventDefault();
-          this.show(target);
-        }
-      });
-    }
-  }
-
-  // инициализация .tabs как табов
-  new ItcTabs('.tabs');
-});
 document.addEventListener('DOMContentLoaded', function () {
   $(document).ready(function () {
     $("#up").on('click', function () {
@@ -73,6 +21,43 @@ document.addEventListener('DOMContentLoaded', function () {
       $("#incdec2 input").val(parseInt($("#incdec2 input").val()) - 1);
     });
 
+  });
+});
+document.addEventListener('DOMContentLoaded', function () {
+  $(document).ready(function () {
+    $("#up3").on('click', function () {
+      $("#incdec3 input").val(parseInt($("#incdec3 input").val()) + 1);
+    });
+
+    $("#down3").on('click', function () {
+      $("#incdec3 input").val(parseInt($("#incdec3 input").val()) - 1);
+    });
+
+  });
+});
+$(document).ready(function () {
+  $('.tar__item').mouseover(function () {
+    myvar = this.id;
+    $("table.mydiv").hide();
+    $('#div' + myvar).show();
+  });
+});
+// $(document).ready(function () {
+//   $('.tar__item').mouseover(function () {
+//     myvar = this.id;
+//     $(".tar__item.div").hide();
+//     $('#div' + myvar).show();
+//   });
+// });
+// $(function () {
+//   $('.tar__item').mouseout(function () {
+//     $("table.mydiv").hide();
+//   });
+// });
+document.addEventListener('DOMContentLoaded', function () {
+  $('.my').change(function () {
+    if ($(this).val() != '') $(this).prev().text('Выбрано файлов: ' + $(this)[0].files.length);
+    else $(this).prev().text('Выберите файлы');
   });
 });
 document.addEventListener("DOMContentLoaded", () => {
