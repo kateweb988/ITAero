@@ -941,9 +941,9 @@ ul.info li
                path 
                   fill: $blue
          .svg 
-            margin-left: 5px
+            margin-left: 9px
             position: relative
-            top: 2px
+            top: -2px
    &__item 
       width: 22%
       h3 
@@ -953,6 +953,11 @@ ul.info li
          font-weight: 400
          line-height: 130%
          margin-bottom: 15px
+   &__flex 
+      align-items: center
+      a 
+         &:nth-child(2)
+            margin-bottom: 0
 .fig 
    position: relative
    display: flex
@@ -1047,24 +1052,29 @@ ul.info li
          &:hover 
             color: $blue
 .open 
+   & > a 
+      position: relative
+      z-index: 2
    &:before 
       content: ""
       width: 1000px
       position: absolute
-      left: -1742px
-      top: 53px
-      background: #cacaca
-      height: 5px
-      display: none
+      left: -314px
+      top: 20px
+      background: white
+      height: 46px
+      z-index: -1
+      pointer-events: none
    &:after 
       content: ""
-      width: 1000px
+      width: 105px
       position: absolute
-      right: -1742px
-      top: 53px
-      background: #cacaca
-      height: 5px
-      display: none
+      left: 13%
+      top: -12px
+      background: white
+      height: 46px
+      z-index: -1
+      pointer-events: none
    &__menu 
       position: absolute
       width: 1084px
@@ -1078,7 +1088,7 @@ ul.info li
          display: block
          width: 1920px
          position: absolute
-         background: url(/img/fig.png) no-repeat center center;
+         background: url(/img/fig.png) no-repeat center center
          height: 152px
          left: 50%
          top: -29px
@@ -1107,6 +1117,8 @@ ul.info li
          display: block
       &:before, &:after
          display: block
+         z-index: 1
+         pointer-events: inherit
 .main__ul
    position: relative
    z-index: 50
@@ -1206,6 +1218,8 @@ ul.info li
       div
          width: 49.06%
          height: 266px
+         ul 
+            align-self: flex-start
 /*ACCORDION*/
 .accordion-container 
    position: relative
@@ -1220,8 +1234,9 @@ ul.info li
    width: 100%
    height: auto
    display: none
-   margin-left: 20px
    margin-top: 15px
+   position: relative
+   right: 13px
 .content li a
    font-weight: 300
    font-size: 18px
@@ -1257,6 +1272,9 @@ ul.info li
       position: relative
       z-index: 5
       background: white
+      td
+         position: relative
+         z-index: 5
    &__wrap 
       position: relative
    &__box 
@@ -1274,6 +1292,13 @@ ul.info li
          order: 4
       table 
          order: 5
+      &_2 
+         table
+            order: 1
+         .tar__left
+            order: 2
+         .tar__right
+            order: 3
    &__item 
       width: 23.6%
       border-radius: 32px
@@ -1283,6 +1308,9 @@ ul.info li
       text-align: center
       position: relative
       margin-bottom: 24px
+      img 
+         position: relative
+         z-index: 6
       div
          display: block
          width: 100%
@@ -1305,29 +1333,29 @@ ul.info li
          &::before
             content: ""
             width: 300px
-            height: 51px
+            height: 66px
             position: absolute
-            top: -51px
-            left: -1
-            background: white 
+            top: -62px
+            left: -1px
+            background: white
             z-index: 3
       &_2
          &::before
             content: ""
-            width: 300px
-            height: 51px
+            width: 299px
+            height: 66px
             position: absolute
-            top: -51px
-            left: 324px
-            background: white 
+            top: -62px
+            left: 324.5px
+            background: white
             z-index: 3
       &_3
          &::before
             content: ""
-            width: 300px
-            height: 51px
+            width: 299px
+            height: 66px
             position: absolute
-            top: -51px
+            top: -62px
             left: 648px
             background: white 
             z-index: 3
@@ -1335,9 +1363,9 @@ ul.info li
          &::before
             content: ""
             width: 300px
-            height: 51px
+            height: 66px
             position: absolute
-            top: -51px
+            top: -62px
             left: 973px
             background: white 
             z-index: 3
@@ -1345,29 +1373,29 @@ ul.info li
          &::before
             content: ""
             width: 300px
-            height: 51px
+            height: 66px
             position: absolute
-            top: -51px
+            bottom: -51px
             left: -1px
-            background: white 
+            background: white
             z-index: 3
       &_6
          &::before
             content: ""
-            width: 300px
-            height: 51px
+            width: 299px
+            height: 66px
             position: absolute
-            top: -51px
-            left: 324px
+            bottom: -51px
+            left: 324.5px
             background: white 
             z-index: 3 
       &_7
          &::before
             content: ""
-            width: 300px
-            height: 51px
+            width: 299px
+            height: 66px
             position: absolute
-            top: -51px
+            bottom: -51px
             left: 648px
             background: white 
             z-index: 3
@@ -1375,9 +1403,9 @@ ul.info li
          &::before
             content: ""
             width: 300px
-            height: 51px
+            height: 66px
             position: absolute
-            top: -51px
+            bottom: -51px
             left: 973px
             background: white 
             z-index: 375px

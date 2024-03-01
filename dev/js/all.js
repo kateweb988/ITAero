@@ -1,39 +1,45 @@
+$(document).ready(function () {
+  $("#up").on('click', function () {
+    $("#incdec input").val(parseInt($("#incdec input").val()) + 1);
+  });
 
-document.addEventListener('DOMContentLoaded', function () {
-  $(document).ready(function () {
-    $("#up").on('click', function () {
-      $("#incdec input").val(parseInt($("#incdec input").val()) + 1);
-    });
+  $("#down").on('click', function () {
+    var value = (parseInt($("#incdec input").val()) - 1);
+    var val = (value - 1) < 0 ? 0 : value - 1;
+    $("#incdec input").val(val);
+  });
 
-    $("#down").on('click', function () {
-      $("#incdec input").val(parseInt($("#incdec input").val()) - 1);
-    });
-
+});
+document.addEventListener("DOMContentLoaded", () => {
+  $('.menu li .go_to').click(function (event) {
+    $('.menu-btn').toggleClass('active');
+    $('.menu').toggleClass('active');
+    return false;
   });
 });
-document.addEventListener('DOMContentLoaded', function () {
-  $(document).ready(function () {
-    $("#up2").on('click', function () {
-      $("#incdec2 input").val(parseInt($("#incdec2 input").val()) + 1);
-    });
-
-    $("#down2").on('click', function () {
-      $("#incdec2 input").val(parseInt($("#incdec2 input").val()) - 1);
-    });
-
+$(document).ready(function () {
+  $("#up2").on('click', function () {
+    $("#incdec2 input").val(parseInt($("#incdec2 input").val()) + 1);
   });
+
+  $("#down2").on('click', function () {
+    var value = (parseInt($("#incdec2 input").val()) - 1);
+    var val = (value - 1) < 0 ? 0 : value - 1;
+    $("#incdec2 input").val(val);
+  });
+
 });
-document.addEventListener('DOMContentLoaded', function () {
-  $(document).ready(function () {
-    $("#up3").on('click', function () {
-      $("#incdec3 input").val(parseInt($("#incdec3 input").val()) + 1);
-    });
-
-    $("#down3").on('click', function () {
-      $("#incdec3 input").val(parseInt($("#incdec3 input").val()) - 1);
-    });
-
+$(document).ready(function () {
+  $("#up3").on('click', function () {
+    $("#incdec3 input").val(parseInt($("#incdec3 input").val()) + 1);
   });
+
+  $("#down3").on('click', function () {
+    var value = (parseInt($("#incdec3 input").val()) - 1);
+    var val = (value - 1) < 0 ? 0 : value - 1;
+    $("#incdec3 input").val(val);
+  });
+
 });
 $(document).ready(function () {
   $('.tar__item').mouseover(function () {
@@ -303,6 +309,7 @@ document.addEventListener('DOMContentLoaded', function () {
     spaceBetween: 24,
     pagination: {
       el: ".swiper-pagination1",
+      clickable: true
     },
     navigation: {
       nextEl: '.swiper-button-next1',
@@ -334,6 +341,7 @@ document.addEventListener('DOMContentLoaded', function () {
     spaceBetween: 69,
     pagination: {
       el: ".swiper-pagination4",
+      clickable: true
     },
     navigation: {
       nextEl: '.swiper-button-next4',
@@ -365,6 +373,7 @@ document.addEventListener('DOMContentLoaded', function () {
     spaceBetween: 28,
     pagination: {
       el: ".swiper-pagination4",
+      clickable: true
     },
     navigation: {
       nextEl: '.swiper-button-next4',

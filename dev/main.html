@@ -42,12 +42,12 @@
 						</a>
 						<ul class="main__ul">
 							<li>
-								<a href="#">
+								<a href="#about" class="go_to">
 									О нас
 								</a>
 							</li>
 							<li class="open">
-								<a href="#">
+								<a href="#ser" class="go_to">
 									Услуги
 								</a>
 								<div class="open__menu q">
@@ -101,12 +101,12 @@
 								</a>
 							</li>
 							<li>
-								<a href="#">
+								<a href="#blog" class="go_to">
 									Блог
 								</a>
 							</li>
 							<li>
-								<a href="#">
+								<a href="#local" class="go_to">
 									Контакты
 								</a>
 							</li>
@@ -128,14 +128,14 @@
 			<div class="menu">
 				<ul>
 					<li>
-						<a href="#">
+						<a href="#about" class="go_to">
 							О нас
 						</a>
 					</li>
 					<li>
 						<div class="accordion-container">
 							<div class="set">
-								<a href="#">
+								<a href="#ser" class="go_to">
 									Услуги
 								</a>
 								<div class="content">
@@ -196,22 +196,22 @@
 						</a>
 					</li>
 					<li>
-						<a href="#">
+						<a href="#calc" class="go_to">
 							Калькулятор
 						</a>
 					</li>
 					<li>
-						<a href="#">
+						<a href="#blog" class="go_to">
 							Блог
 						</a>
 					</li>
 					<li>
-						<a href="#">
+						<a href="#faq" class="go_to">
 							FAQ
 						</a>
 					</li>
 					<li>
-						<a href="#">
+						<a href="#local" class="go_to">
 							Контакты
 						</a>
 					</li>
@@ -220,7 +220,7 @@
 			<div class="container">
 				<div class="header__box">
 					<h1>
-						<span class="blue"> IT</span> решения, которые сделают <br> ваши мечты <span
+						<span class="blue"> IT</span> решения, которые <br class="mob"> сделают <br> ваши мечты <span
 							class="blue">реальностью</span>
 					</h1>
 					<div class="header__row q">
@@ -252,7 +252,7 @@
 							<p>
 								IT-аутсорсинг вашей компании
 							</p>
-							<a href="#">
+							<a href="#info" class="go_to">
 								Читать подробнее <img src="img/arr2.svg" alt="" class="svg">
 							</a>
 						</div>
@@ -296,7 +296,8 @@
 							Качественный ремонт
 						</h3>
 						<p>
-							У нас имеется запас комплектующих для ремонта ПК, включая всевозможные конденсаторы, резисторы и
+							У нас имеется запас комплектующих для ремонта ПК, <br class="mob"> включая всевозможные
+							конденсаторы, резисторы и
 							тому подобное
 						</p>
 					</div>
@@ -315,7 +316,8 @@
 							Бережное отношение
 						</h3>
 						<p>
-							Мы никогда не забываем про ваши заявки. Каждый ваш звонок регистрируется в специальной системе
+							Мы никогда не забываем про ваши заявки. Каждый ваш звонок регистрируется <br class="mob"> в
+							специальной системе
 							заявок OTRS ITSM
 						</p>
 					</div>
@@ -683,8 +685,9 @@
 								Количество компьютеров
 							</label>
 							<div id="incdec">
-								<input type="number" placeholder="Введите число" value="0">
-								<img src="img/up.svg" id="up" />
+								<input type="number" placeholder="Введите число" min="0" value="0"
+									oninput="this.value = Math.abs(this.value)">
+								<img src=" img/up.svg" id="up" />
 								<img src="img/own.svg" id="down" />
 							</div>
 						</div>
@@ -1033,9 +1036,14 @@
 							<p>
 								Телефон в Ростове-на-Дону:
 							</p>
-							<a href="tel:+79282960980">
-								+7 (928) 296 09 80 <img src="img/local.svg" alt="" class="svg">
-							</a>
+							<div class="local__flex q">
+								<a href="tel:+79282960980">
+									+7 (928) 296 09 80
+								</a>
+								<a href="#" target="_blank">
+									<img src="img/local.svg" alt="" class="svg">
+								</a>
+							</div>
 						</div>
 						<div class="local__area">
 							<p>
@@ -1073,9 +1081,14 @@
 							<p>
 								Телефон в Краснодаре:
 							</p>
-							<a href="tel:+79282960980">
-								+7 (928) 296 09 80 <img src="img/local.svg" alt="" class="svg">
-							</a>
+							<div class="local__flex q">
+								<a href="tel:+79282960980">
+									+7 (928) 296 09 80
+								</a>
+								<a href="#" target="_blank">
+									<img src="img/local.svg" alt="" class="svg">
+								</a>
+							</div>
 						</div>
 						<div class="local__area">
 							<p>
@@ -1102,9 +1115,14 @@
 							<p>
 								Телефон в Новочеркасске:
 							</p>
-							<a href="tel:+79282960980">
-								+7 (928) 296 09 80 <img src="img/local.svg" alt="" class="svg">
-							</a>
+							<div class="local__flex q">
+								<a href="tel:+79282960980">
+									+7 (928) 296 09 80
+								</a>
+								<a href="#" target="_blank">
+									<img src="img/local.svg" alt="" class="svg">
+								</a>
+							</div>
 						</div>
 						<div class="local__area">
 							<p>
@@ -1131,9 +1149,14 @@
 							<p>
 								Телефон в Таганроге:
 							</p>
-							<a href="tel:+79282960980">
-								+7 (928) 296 09 80 <img src="img/local.svg" alt="" class="svg">
-							</a>
+							<div class="local__flex q">
+								<a href="tel:+79282960980">
+									+7 (928) 296 09 80
+								</a>
+								<a href="#" target="_blank">
+									<img src="img/local.svg" alt="" class="svg">
+								</a>
+							</div>
 						</div>
 						<div class="local__area">
 							<p>
@@ -1169,12 +1192,12 @@
 						</p>
 						<ul>
 							<li>
-								<a href="#">
+								<a href="#about" class="go_to">
 									О нас
 								</a>
 							</li>
 							<li>
-								<a href="#">
+								<a href="#ser" class="go_to">
 									Услуги
 								</a>
 							</li>
@@ -1194,7 +1217,7 @@
 								</a>
 							</li>
 							<li>
-								<a href="#">
+								<a href="#blog" class="go_to">
 									Блог
 								</a>
 							</li>
@@ -1204,7 +1227,7 @@
 								</a>
 							</li>
 							<li>
-								<a href="#">
+								<a href="#local" class="go_to">
 									Контакты
 								</a>
 							</li>
